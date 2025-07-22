@@ -1,36 +1,26 @@
-import { Code, Camera, Mountain, Book, Gamepad2, Music } from "lucide-react";
+import { BookOpen, Film, MapPin, Briefcase } from "lucide-react";
 
 export function Interests() {
   const interests = [
     {
-      icon: <Code className="w-8 h-8" />,
-      title: "Open Source",
-      description: "Contributing to open source projects and building tools for the developer community."
+      icon: <BookOpen className="w-8 h-8" />,
+      title: "Learn New Things",
+      description: "Constantly exploring new technologies and expanding my knowledge base."
     },
     {
-      icon: <Camera className="w-8 h-8" />,
-      title: "Photography",
-      description: "Capturing moments and exploring creative perspectives through digital photography."
+      icon: <Film className="w-8 h-8" />,
+      title: "Watching Movies",
+      description: "Enjoying cinema and storytelling in various genres."
     },
     {
-      icon: <Mountain className="w-8 h-8" />,
-      title: "Hiking",
-      description: "Exploring nature trails and finding inspiration in outdoor adventures."
+      icon: <MapPin className="w-8 h-8" />,
+      title: "Travelling",
+      description: "Exploring new places and experiencing different cultures."
     },
     {
-      icon: <Book className="w-8 h-8" />,
-      title: "Tech Blogging",
-      description: "Writing technical articles and sharing knowledge with the developer community."
-    },
-    {
-      icon: <Gamepad2 className="w-8 h-8" />,
-      title: "Game Development",
-      description: "Creating indie games and exploring interactive entertainment technologies."
-    },
-    {
-      icon: <Music className="w-8 h-8" />,
-      title: "Music Production",
-      description: "Composing electronic music and experimenting with audio technologies."
+      icon: <Briefcase className="w-8 h-8" />,
+      title: "Free Lancing",
+      description: "Working on independent projects and building client relationships."
     }
   ];
 

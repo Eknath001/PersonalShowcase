@@ -4,11 +4,14 @@ import { Lightbulb, Users, Briefcase, GraduationCap } from "lucide-react";
 
 export function Skills() {
   const technicalSkills = [
-    { name: "JavaScript/TypeScript", level: 95 },
-    { name: "React/Next.js", level: 90 },
-    { name: "Node.js/Express", level: 85 },
-    { name: "Python/Django", level: 80 },
-    { name: "AWS/Cloud Services", level: 75 }
+    { name: "Java", level: 80 },
+    { name: "SpringBoot", level: 80 },
+    { name: "HTML/CSS/JavaScript", level: 70 },
+    { name: "React", level: 70 },
+    { name: "Angular", level: 60 },
+    { name: "MySQL", level: 75 },
+    { name: "Python", level: 65 },
+    { name: "C/C++", level: 65 }
   ];
 
   const professionalSkills = [
@@ -38,8 +41,10 @@ export function Skills() {
     <section id="skills" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-secondary mb-4">Skills & Expertise</h2>
-          <p className="text-xl text-gray-600">Technologies and tools I work with</p>
+          <h2 className="text-4xl font-bold text-secondary mb-4">Skills</h2>
+          <p className="text-xl text-gray-600">I possess proficient knowledge in Java full-stack development, with expertise in web-based applications.
+            My skill set encompasses C, Java, MySQL, MongoDB, SpringBoot, React, Angular, HTML, CSS, and JavaScript, enabling me to excel in
+            diverse technological environments.</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">

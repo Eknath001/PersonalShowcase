@@ -3,24 +3,24 @@ import { Card, CardContent } from "@/components/ui/card";
 export function Facts() {
   const facts = [
     {
-      number: "50+",
-      title: "Projects Completed",
-      description: "Successful web applications delivered"
-    },
-    {
-      number: "25+",
+      number: "12",
       title: "Happy Clients",
       description: "Satisfied customers worldwide"
     },
     {
-      number: "5+",
-      title: "Years Experience",
-      description: "Professional development expertise"
+      number: "3",
+      title: "Projects",
+      description: "Successfully completed projects"
     },
     {
-      number: "15+",
-      title: "Technologies",
-      description: "Modern tools and frameworks"
+      number: "0",
+      title: "Years of Experience",
+      description: "Fresh graduate ready to grow"
+    },
+    {
+      number: "1",
+      title: "Course",
+      description: "Java Full Stack Development"
     }
   ];
 
@@ -28,8 +28,10 @@ export function Facts() {
     <section id="facts" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-secondary mb-4">Key Facts</h2>
-          <p className="text-xl text-gray-600">Numbers that tell my professional story</p>
+          <h2 className="text-4xl font-bold text-secondary mb-4">Facts</h2>
+          <p className="text-xl text-gray-600">In my extensive project portfolio, I've not only completed numerous initiatives but also successfully
+            commercialized select projects. Additionally, my achievements include securing prestigious awards both in
+            project execution and academic endeavors, reflecting a dedication to excellence.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

@@ -1,8 +1,8 @@
-# Alex Rivera Portfolio Website
+# Eknath Changade Portfolio Website
 
 ## Overview
 
-This is a modern, responsive portfolio website built for Alex Rivera, a full-stack developer. The application showcases professional experience, skills, projects, and provides a contact form for potential clients or employers. It's built as a full-stack application with a React frontend and Express.js backend.
+This is a modern, responsive portfolio website built for Eknath Changade, a Java Developer and Web Developer. The application showcases his educational background, technical skills, interests, and provides a contact form for potential opportunities. It's built as a full-stack application with a React frontend and Express.js backend.
 
 ## User Preferences
 

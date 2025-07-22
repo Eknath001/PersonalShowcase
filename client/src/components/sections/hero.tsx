@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useSmoothScroll } from "@/hooks/use-smooth-scroll";
+import { Mail, Linkedin, Github, Phone } from "lucide-react";
 
 export function Hero() {
   const scrollTo = useSmoothScroll();
@@ -10,16 +11,32 @@ export function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">
             <h1 className="text-5xl lg:text-6xl font-bold text-secondary mb-6">
-              Hi, I'm <span className="text-primary">Alex Rivera</span>
+              Hi, I'm <span className="text-primary">Eknath Changade</span>
             </h1>
             <h2 className="text-xl lg:text-2xl text-gray-600 mb-8">
-              Full Stack Developer & UI/UX Enthusiast
+              Java Developer & Web Developer
             </h2>
             <p className="text-lg text-gray-700 mb-10 leading-relaxed">
-              I create beautiful, responsive web applications using modern technologies. 
-              With 5+ years of experience in React, Node.js, and cloud platforms, 
-              I turn complex problems into simple, elegant solutions.
+              As a graduate in Information Technology Engineering with honors in 
+              Artificial Intelligence and Machine Learning, I am currently expanding 
+              my expertise in Information Technology, furthering my knowledge and 
+              skills to excel in this dynamic industry.
             </p>
+            <div className="flex items-center gap-6 mb-8">
+              <a href="mailto:ekanathchangade@gmail.com" className="text-primary hover:text-blue-700 transition-colors">
+                <Mail className="w-6 h-6" />
+              </a>
+              <a href="https://linkedin.com/in/eknath-changade-full-stack-java-developer" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-blue-700 transition-colors">
+                <Linkedin className="w-6 h-6" />
+              </a>
+              <a href="https://github.com/Eknath001" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-blue-700 transition-colors">
+                <Github className="w-6 h-6" />
+              </a>
+              <a href="https://wa.me/918329274587" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-blue-700 transition-colors">
+                <Phone className="w-6 h-6" />
+              </a>
+            </div>
+            
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 onClick={() => scrollTo("#portfolio")}

@@ -80,8 +80,8 @@ export function Portfolio() {
     <section id="portfolio" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-secondary mb-4">My Portfolio</h2>
-          <p className="text-xl text-gray-600">Recent projects I've worked on</p>
+          <h2 className="text-4xl font-bold text-secondary mb-4">Portfolio</h2>
+          <p className="text-xl text-gray-600">In my portfolio, I showcase a diverse array of projects encompassing both software and hardware domains. Alongside my accomplishments, including securing prestigious awards, these projects exemplify my versatility and proficiency in delivering innovative solutions across various technological realms.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

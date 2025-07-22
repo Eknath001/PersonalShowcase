@@ -70,18 +70,18 @@ export function Footer() {
   };
 
   const socialLinks = [
-    { icon: <Linkedin className="w-5 h-5" />, url: "https://linkedin.com", label: "LinkedIn" },
-    { icon: <Github className="w-5 h-5" />, url: "https://github.com", label: "GitHub" },
-    { icon: <Twitter className="w-5 h-5" />, url: "https://twitter.com", label: "Twitter" },
-    { icon: <Dribbble className="w-5 h-5" />, url: "https://dribbble.com", label: "Dribbble" }
+    { icon: <Mail className="w-5 h-5" />, url: "mailto:ekanathchangade@gmail.com", label: "Gmail" },
+    { icon: <Linkedin className="w-5 h-5" />, url: "https://linkedin.com/in/eknath-changade-full-stack-java-developer", label: "LinkedIn" },
+    { icon: <Github className="w-5 h-5" />, url: "https://github.com/Eknath001", label: "GitHub" },
+    { icon: <Phone className="w-5 h-5" />, url: "https://wa.me/918329274587", label: "WhatsApp" }
   ];
 
   return (
     <footer id="contact" className="bg-secondary text-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Let's Work Together</h2>
-          <p className="text-xl text-gray-300">Ready to start your next project? Get in touch!</p>
+          <h2 className="text-4xl font-bold mb-4">Eknath Changade</h2>
+          <p className="text-xl text-gray-300">Thank you for reviewing this site</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -96,7 +96,7 @@ export function Footer() {
                 </div>
                 <div>
                   <h4 className="font-medium">Email</h4>
-                  <p className="text-gray-300">alex.rivera@example.com</p>
+                  <p className="text-gray-300">ekanathchangade@gmail.com</p>
                 </div>
               </div>
               
@@ -106,7 +106,7 @@ export function Footer() {
                 </div>
                 <div>
                   <h4 className="font-medium">Phone</h4>
-                  <p className="text-gray-300">+1 (555) 123-4567</p>
+                  <p className="text-gray-300">+91 8329274587</p>
                 </div>
               </div>
               
@@ -116,7 +116,7 @@ export function Footer() {
                 </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <p className="text-gray-300">San Francisco, CA</p>
+                  <p className="text-gray-300">Pune, Maharashtra, India</p>
                 </div>
               </div>
             </div>

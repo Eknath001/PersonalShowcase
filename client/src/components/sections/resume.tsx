@@ -25,45 +25,29 @@ export function Resume() {
 
   const experience = [
     {
-      title: "Senior Full Stack Developer",
-      company: "TechCorp Solutions",
-      period: "2022 - Present",
+      title: "Eknath Changade - Summary",
+      company: "Fresh Graduate",
+      period: "2023 - Present",
       achievements: [
-        "Led development of 3 major web applications serving 10K+ users",
-        "Implemented microservices architecture reducing load times by 40%",
-        "Mentored 3 junior developers and established code review processes"
-      ]
-    },
-    {
-      title: "Full Stack Developer",
-      company: "StartupXYZ",
-      period: "2020 - 2022",
-      achievements: [
-        "Built responsive web applications using React and Node.js",
-        "Integrated third-party APIs and payment processing systems",
-        "Collaborated with designers to implement pixel-perfect UIs"
+        "After completing my degree, I enhanced my skills by pursuing a 6-month Java Full Stack Course.",
+        "I recently completed this course, where I gained valuable practical experience and contributed to real-world projects.",
+        "I am now graduating and eager to apply my knowledge to new opportunities."
       ]
     }
   ];
 
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      institution: "University of California, Berkeley",
-      year: "2016 - 2020",
-      description: "Graduated Magna Cum Laude. Relevant coursework: Data Structures, Algorithms, Software Engineering, Database Systems, Web Development."
+      degree: "BE Information Technology",
+      institution: "Anuradha Engineering College, Chikhali",
+      year: "2019 - 2023",
+      description: "Sant Gadge Baba Amravati University, Amravati. CGPA - 6.50"
     },
     {
-      degree: "AWS Certified Solutions Architect",
-      institution: "Amazon Web Services",
-      year: "2022",
-      description: "Professional level certification demonstrating expertise in designing and deploying scalable systems on AWS."
-    },
-    {
-      degree: "Google Cloud Professional Developer",
-      institution: "Google Cloud Platform",
-      year: "2023",
-      description: "Certified in designing, building, and deploying applications on Google Cloud Platform."
+      degree: "Java Full Stack Developer",
+      institution: "Seed Infotech Pvt Ltd, Pune",
+      year: "June 2023 - Nov 2024",
+      description: "Hands On experience on following Technologies: JAVA | MySQL | C | CPP | Python | HTML | CSS | JavaScript | Angular | ReactJs | MongoDB | NodeJs | MicroServices | API | Servlet | SpringBoot | ExpressJS"
     }
   ];
 
@@ -72,7 +56,7 @@ export function Resume() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-secondary mb-4">Resume</h2>
-          <p className="text-xl text-gray-600 mb-8">My professional journey and experience</p>
+          <p className="text-xl text-gray-600 mb-8">As a graduate in Information Technology Engineering, with honors in Artificial Intelligence and Machine Learning, I am currently expanding my expertise in the field of Information Technology, furthering my knowledge and skills to thrive in this dynamic industry.</p>
           <Button
             onClick={handleDownloadResume}
             className="inline-flex items-center bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-300"

@@ -10,9 +10,11 @@ export function Header() {
   const navigationItems = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
+    { name: "Facts", href: "#facts" },
     { name: "Skills", href: "#skills" },
-    { name: "Portfolio", href: "#portfolio" },
+    { name: "Interests", href: "#interests" },
     { name: "Resume", href: "#resume" },
+    { name: "Portfolio", href: "#portfolio" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -26,7 +28,7 @@ export function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <div className="font-bold text-xl text-primary">Alex Rivera</div>
+            <div className="font-bold text-xl text-primary">Eknath Changade</div>
           </div>
           
           {/* Desktop Navigation */}
