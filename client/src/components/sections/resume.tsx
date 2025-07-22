@@ -1,26 +1,24 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Download, Briefcase, GraduationCap, Check } from "lucide-react";
-import { apiRequest } from "@/lib/queryClient";
+
 import { useToast } from "@/hooks/use-toast";
 
 export function Resume() {
   const { toast } = useToast();
 
-  const handleDownloadResume = async () => {
-    try {
-      const response = await apiRequest("GET", "/api/resume/download");
-      toast({
-        title: "Resume Downloaded",
-        description: "Resume has been downloaded successfully.",
-      });
-    } catch (error) {
-      toast({
-        title: "Download Failed",
-        description: "Unable to download resume at this time.",
-        variant: "destructive",
-      });
-    }
+  const handleDownloadResume = () => {
+    const link = document.createElement("a");
+    link.href = "assets\Eknath_Changade_resume.pdf"; // Make sure this file exists in /public/resume
+    link.download = "assets\Eknath_Changade_resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    toast({
+      title: "Resume Downloaded",
+      description: "Resume has been downloaded successfully.",
+    });
   };
 
   const experience = [
@@ -31,9 +29,9 @@ export function Resume() {
       achievements: [
         "After completing my degree, I enhanced my skills by pursuing a 6-month Java Full Stack Course.",
         "I recently completed this course, where I gained valuable practical experience and contributed to real-world projects.",
-        "I am now graduating and eager to apply my knowledge to new opportunities."
-      ]
-    }
+        "I am now graduating and eager to apply my knowledge to new opportunities.",
+      ],
+    },
   ];
 
   const education = [
@@ -41,14 +39,15 @@ export function Resume() {
       degree: "BE Information Technology",
       institution: "Anuradha Engineering College, Chikhali",
       year: "2019 - 2023",
-      description: "Sant Gadge Baba Amravati University, Amravati. CGPA - 6.50"
+      description: "Sant Gadge Baba Amravati University, Amravati. CGPA - 6.82",
     },
     {
       degree: "Java Full Stack Developer",
       institution: "Seed Infotech Pvt Ltd, Pune",
       year: "June 2023 - Nov 2024",
-      description: "Hands On experience on following Technologies: JAVA | MySQL | C | CPP | Python | HTML | CSS | JavaScript | Angular | ReactJs | MongoDB | NodeJs | MicroServices | API | Servlet | SpringBoot | ExpressJS"
-    }
+      description:
+        "Hands On experience on following Technologies: JAVA | MySQL | C | CPP | Python | HTML | CSS | JavaScript | Angular | ReactJs | MongoDB | NodeJs | MicroServices | API | Servlet | SpringBoot | ExpressJS",
+    },
   ];
 
   return (
@@ -56,14 +55,17 @@ export function Resume() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-secondary mb-4">Resume</h2>
-          <p className="text-xl text-gray-600 mb-8">As a graduate in Information Technology Engineering, with honors in Artificial Intelligence and Machine Learning, I am currently expanding my expertise in the field of Information Technology, furthering my knowledge and skills to thrive in this dynamic industry.</p>
-          <Button
-            onClick={handleDownloadResume}
+          <p className="text-xl text-gray-600 mb-8">
+            As a graduate in Information Technology Engineering, with honors in Artificial Intelligence and Machine Learning, I am currently expanding my expertise in the field of Information Technology, furthering my knowledge and skills to thrive in this dynamic industry.
+          </p>
+          <a
+            href="/assets/Eknath_Changade_resume.pdf"
+            download
             className="inline-flex items-center bg-primary text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors duration-300"
           >
             <Download className="w-4 h-4 mr-2" />
             Download Resume
-          </Button>
+          </a>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -73,7 +75,7 @@ export function Resume() {
               <Briefcase className="w-6 h-6 text-primary mr-3" />
               Professional Experience
             </h3>
-            
+
             <div className="space-y-8">
               {experience.map((job, index) => (
                 <div key={index} className="border-l-4 border-primary pl-6 pb-8">
@@ -103,7 +105,7 @@ export function Resume() {
               <GraduationCap className="w-6 h-6 text-primary mr-3" />
               Education & Certifications
             </h3>
-            
+
             <div className="space-y-8">
               {education.map((edu, index) => (
                 <div key={index} className="border-l-4 border-primary pl-6 pb-8">

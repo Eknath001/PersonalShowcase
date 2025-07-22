@@ -28,30 +28,7 @@ export function Portfolio() {
       liveUrl: "#",
       githubUrl: "#"
     },
-    {
-      title: "Mobile Fitness App",
-      description: "A cross-platform mobile application for fitness tracking with workout plans, progress monitoring, and social sharing capabilities.",
-      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
-      technologies: ["React Native", "MongoDB", "GraphQL"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "DevOps Monitoring Tool",
-      description: "A comprehensive DevOps monitoring solution for tracking server performance, deployment status, and system health across multiple environments.",
-      image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
-      technologies: ["Docker", "Kubernetes", "AWS"],
-      liveUrl: "#",
-      githubUrl: "#"
-    },
-    {
-      title: "AI Recommendation Engine",
-      description: "A machine learning-powered recommendation system using collaborative filtering and neural networks to provide personalized content suggestions.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
-      technologies: ["Python", "TensorFlow", "FastAPI"],
-      liveUrl: "#",
-      githubUrl: "#"
-    }
+    
   ];
 
   const getTechColor = (tech: string) => {

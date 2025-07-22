@@ -4,6 +4,9 @@ import { storage } from "./storage";
 import { insertContactMessageSchema } from "@shared/schema";
 import { z } from "zod";
 
+import path from "path";
+
+
 export async function registerRoutes(app: Express): Promise<Server> {
   // Contact form submission
   app.post("/api/contact", async (req, res) => {
@@ -40,13 +43,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  // Resume download endpoint
-  app.get("/api/resume/download", (req, res) => {
-    // In a real application, this would serve an actual resume file
-    res.setHeader('Content-Type', 'application/pdf');
-    res.setHeader('Content-Disposition', 'attachment; filename="Alex-Rivera-Resume.pdf"');
-    res.status(200).send("Resume download would be implemented here with actual PDF file");
-  });
+
 
   const httpServer = createServer(app);
   return httpServer;

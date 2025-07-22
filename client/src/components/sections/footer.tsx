@@ -236,7 +236,7 @@ export function Footer() {
         {/* Footer Bottom */}
         <div className="border-t border-gray-700 mt-16 pt-8 text-center">
           <p className="text-gray-400">
-            &copy; 2024 Alex Rivera. All rights reserved. | Designed & Developed with ❤️
+            &copy; 2025 Eknath Changade. All rights reserved. | Designed & Developed with ❤️
           </p>
         </div>
       </div>

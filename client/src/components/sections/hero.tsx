@@ -58,8 +58,8 @@ export function Hero() {
             <div className="relative">
               <div className="w-80 h-80 mx-auto rounded-full overflow-hidden shadow-2xl animate-float">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=800" 
-                  alt="Alex Rivera - Full Stack Developer" 
+                  src="assets\img\ekka.jpeg" 
+                  alt="Eknath Changade - Full Stack Developer" 
                   className="w-full h-full object-cover" 
                 />
               </div>

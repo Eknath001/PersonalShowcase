@@ -42,9 +42,7 @@ export function Skills() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-secondary mb-4">Skills</h2>
-          <p className="text-xl text-gray-600">I possess proficient knowledge in Java full-stack development, with expertise in web-based applications.
-            My skill set encompasses C, Java, MySQL, MongoDB, SpringBoot, React, Angular, HTML, CSS, and JavaScript, enabling me to excel in
-            diverse technological environments.</p>
+          <p className="text-xl text-gray-600">I possess proficient knowledge in Java full-stack development, specializing in building robust web-based applications. My skill set spans across C, Java, MySQL, MongoDB, Spring Boot, React, Angular, HTML, CSS, JavaScript, and Amazon Web Services (AWS), enabling me to thrive in diverse technological environments and deliver scalable, end-to-end solutions.</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
